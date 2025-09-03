@@ -16,8 +16,8 @@ A comprehensive Git-based checkpoint system designed for safe collaboration with
 ### Method 1: Clone and Install (Recommended)
 ```bash
 # Clone this repository
-git clone https://github.com/yourusername/claude-checkpoint-system.git
-cd claude-checkpoint-system
+git clone https://github.com/sagor110090/claude-checkpoint-github.git
+cd claude-checkpoint-github
 
 # Copy install script and files to your project
 cp -r * /path/to/your/project/
@@ -30,9 +30,9 @@ bash install.sh
 ### Method 2: Direct Copy
 ```bash
 # In your project directory
-curl -O https://raw.githubusercontent.com/yourusername/claude-checkpoint-system/main/install.sh
-curl -O https://raw.githubusercontent.com/yourusername/claude-checkpoint-system/main/claude-checkpoint.sh
-curl -O https://raw.githubusercontent.com/yourusername/claude-checkpoint-system/main/pre-commit-hook
+curl -O https://raw.githubusercontent.com/sagor110090/claude-checkpoint-github/main/install.sh
+curl -O https://raw.githubusercontent.com/sagor110090/claude-checkpoint-github/main/claude-checkpoint.sh
+curl -O https://raw.githubusercontent.com/sagor110090/claude-checkpoint-github/main/pre-commit-hook
 
 # Make executable and setup
 chmod +x install.sh
